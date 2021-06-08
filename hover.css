@@ -1,0 +1,23 @@
+* { 
+	font-size: 20px;
+}
+
+.caja1 {
+  position: relative;
+  height: 290px;
+  width: 290px;
+  margin: 50px 20px;
+  float: left;
+}
+.caja1 img {
+	height: 100%;
+	width: 100%;
+  position: absolute;
+  left: 0;
+  transition: opacity .5s ease-in-out;
+  
+}
+
+.caja1 img.x:hover {
+	opacity: 0;
+}
